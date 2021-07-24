@@ -29,8 +29,4 @@ Vagrant.configure("2") do |config|
 
   end
 
-  config.vm.provider "virtualbox" do |vb|
-    vb.gui = true
-  end 
-
 end
